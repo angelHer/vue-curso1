@@ -10,7 +10,9 @@ const app = new Vue({
       {nombre: 'Melon', cantidad: 5},
     ],
     nuevaFruta: '',
-    total: 0
+    total: 0,
+    fondo: 'bg-danger',
+    color: false
   },
   methods: {
     agregarFruta () {
